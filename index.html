@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pausal | Portfolio</title>
+  <link rel="icon" href="./images/logo.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+</head>
+<body>
+  <!--HEADER START-->
+  <header>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link"><p>Home</p></a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link"><p>About</p></a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link"><p>Skills</p></a>
+        </li>
+        <li class="nav-item">
+          <a href="#project" class="nav-link"><p>Projects</p></a>
+        </li>
+        <li class="nav-item">
+          <a href="#services" class="nav-link"><p>Services</p></a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link"><p>Contact</p></a>
+        </li>
+      </ul>
+    </nav>
+  
+  
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+	<!--HEADER END-->
+
+  <!-- HOME START -->
+  <section id="home" data-section="home">
+    <div class="title">
+      <h3>I'm a</h3>
+      <h1><span class="animated-title">Back-End Developer</span></h1>
+      <button onclick="window.location.href = '#contact';">CONTACT ME</button>
+    </div>
+  </section>
+  <!-- HOME END -->
+
+  <!-- ABOUT START -->
+  <section id="about" data-section="about">
+    <h2 class="sect_title about reveal" data-animation="fade-bottom">About Me</h2>
+  
+    <div class="contents reveal">
+      <div class="img_container reveal-img">
+        <img src="images/profile.jpg" alt="">
+      </div>
+      <div class="info reveal-info">
+        <h4>My name is <span>Arkeo Jewel Pausal</span></h4>
+        <p>
+           An experienced and motivated computer science graduate
+          with a passion for developing mobile applications, software,
+          web designs and web development.With strong educational
+          background, technical skills, and enthusiasm for technology.
+          With a degree in computer science from Western Mindanao
+          State University
+        </p>
+        <div class="details">
+          <div class="detailss">
+            <h5>Name</h5>
+            <span>Arkeo Jewel L. Pausal</span>
+          </div>
+          <div class="detailss">
+            <h5>Phone</h5>
+            <span>+63 997 792 4687</span>
+          </div>
+          <div class="detailss">
+            <h5>Country</h5>
+            <span>Philippines</span>
+          </div>
+          <div class="detailss">
+            <h5>Email</h5>
+            <span>arkeoj@gmail.com</span>
+          </div>
+          <div class="detailss">
+            <h5>Education</h5>
+            <span>---</span>
+          </div>
+        </div>
+        <div class="about-links">
+          <a href="#">
+            <i href="https://www.facebook.com/arkeojewel.pausal" class='bx bxl-facebook'></i>
+          </a>
+          <a href="https://www.linkedin.com/in/arkeo-jewel-pausal-597208311/" target="_blank" rel="noopener noreferrer">
+            <i class='bx bxl-linkedin' ></i>
+          </a>
+          <a href="#">
+            <i class='bx bxl-instagram' ></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT END -->
+
+  <!-- SKILLS START -->
+  <section id="skills" data-section="skills">
+    <h2 class="sect_title skills reveal" data-animation="fade-bottom">Skills</h2>
+
+    <p>I want to improve my skills in coding so I can better understand 
+      how to work better and create projects on my own. Learning 
+      step by step helped me gain confidence and become more comfortable writing code.</p>
+
+    <ul class="skills-bar-container">
+      <li>
+        <div class="progressbar-title">
+          <h3>HTML5</h3>
+          <span class="percent" id="html-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar" id="progress-html"></span>
+        </div>
+      </li>
+      
+      <li>
+        <div class="progressbar-title">
+          <h3>CSS / SCSS</h3>
+          <span class="percent" id="css-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar" id="progress-css"></span>
+        </div>
+      </li>
+
+      <li>
+        <div class="progressbar-title">
+          <h3>JavaScript / jQuery</h3>
+          <span class="percent" id="javascript-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar" id="progress-javascript"></span>
+        </div>
+      </li>
+
+      <li>
+        <div class="progressbar-title">
+          <h3>PHP</h3>
+          <span class="percent" id="php-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar" id="progress-php"></span>
+        </div>
+      </li>
+
+      <li>
+        <div class="progressbar-title">
+          <h3>Bootstrap</h3>
+          <span class="percent" id="bootstrap-pourcent"></span>
+        </div>
+        <div class="bar-container">
+          <span class="progressbar" id="progress-bootstrap"></span>
+        </div>
+      </li>
+
+    </ul>
+
+    <div class="b-center">
+      <a href="files/Pausal, Arkeo Jewel L. Resume.pdf" class="btn" download>Resume</a>
+    </div>
+
+  </section>
+  <!-- SKILLS END -->
+
+  <!-- PROJECT START -->
+  <section id="project" data-section="project">
+    <h2 class="sect_title project reveal" data-animation="fade-bottom">Projects</h2>
+  
+    <ul class="project-container">
+      <li class="project-image reveal" data-animation="fade-bottom" style="background-image: url(images/project_images/CrimsonAvenue.png);">
+        <div class="text">
+          <h3><a href="#">Crimson Avenue</a></h3>
+        </div>
+      </li>
+  
+      <li class="project-image reveal" data-animation="fade-bottom" style="background-image: url(images/project_images/Skytropics.png);">
+        <div class="text">
+          <h3><a href="https://propad.w3bcs.com/">Real Estate</a></h3>
+        </div>
+      </li>
+  
+      <li class="project-image reveal" data-animation="fade-bottom" style="background-image: url(images/project_images/TOUR.png);">
+        <div class="text">
+          <h3><a href="https://sites.google.com/view/pausalbscstour2024/home">Web Blog Post</a></h3>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- PROJECT END -->
+
+  <!-- SERVICE START -->
+  <section id="services" data-section="services">
+    <h2 class="sect_title service reveal" data-animation="fade-bottom">Services</h2>
+
+    <ul class="services-container">
+      <li class="service-item reveal">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Development</h3>
+      </li>
+
+      <li class="service-item reveal">
+        <i class='bx bx-paint'></i>
+        <h3>Web Design</h3>
+ 
+      </li>
+
+      <li class="service-item reveal">
+        <i class='bx bx-mobile-alt'></i>
+        <h3>Software Development</h3>
+      </li>
+    </ul>
+  </section>
+  <!-- SERVICE END -->
+
+  <!-- CONTACT START -->
+  <section id="contact" data-section="contact">
+    <h2 class="sect_title contact reveal" data-animation="fade-bottom">Contact me</h2>
+
+    <div class="sect-container">
+      <div class="left">
+        <p>Feel free to reach out for collaboration opportunities, 
+          inquiries, or to discuss innovative development projects. 
+          I am always excited to connect and explore new possibilities 
+          in the world of web development.</p>
+        <ul class="contact-container">
+          <li class="contact-list">
+            <i class='bx bx-envelope'></i>
+            <p>arkeoj@gmail.com</p>
+          </li>
+  
+          <li class="contact-list">
+            <i class='bx bx-phone' ></i>
+            <p>+63 997 792 4687</p>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="right">
+        <h3>Let's get in touch</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your name..." required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your email..." required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Message..." required></textarea>
+          </div>
+          <div class="form-group">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT END -->
+
+  <!-- FOOTER START -->
+  <footer id="footer">
+    <div class="footer-contents">
+      <div class="about">
+      <br><br><br>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://www.facebook.com/arkeojewel.pausal" target="_blank" rel="noopener noreferrer">
+          <i class='bx bxl-facebook'></i>
+        </a>
+        <a a href="https://www.linkedin.com/in/arkeo-jewel-pausal-597208311/" target="_blank" rel="noopener noreferrer">
+          <i class='bx bxl-linkedin' ></i>
+        </a>
+        <a href="#">
+          <i class='bx bxl-instagram' ></i>
+        </a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- FOOTER END -->
+
+  <script type="text/javascript">
+    (function() {
+      emailjs.init("K67R76s6EWsC6T-Wh");
+    })();
+  </script>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
